@@ -12,7 +12,7 @@ ul {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -43,7 +43,7 @@ body {
         /* header */
 
 .header {
-    width: 1600px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
@@ -64,7 +64,7 @@ header .container, nav {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
-    width: 145px;
+    max-width: 145px;
 }
 
 header .logo-studio {
@@ -73,7 +73,7 @@ header .logo-studio {
 
 .menu-nav {
     display: flex;
-    width: 294px;
+    max-width: 294px;
 }
 
 .menu-nav li:nth-child(-n+2) {
@@ -83,7 +83,7 @@ header .logo-studio {
 .contacts {
     display: flex;
     margin-left: auto;
-    min-width: 303px;
+    max-width: 303px;
 }
 
 header .tel {
@@ -143,6 +143,8 @@ header .e-mail {
     max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 #title {
@@ -150,7 +152,7 @@ header .e-mail {
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
-    width: 696px;
+    max-width: 696px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -180,11 +182,6 @@ header .e-mail {
     border: none;
 }
 
-.head .container {
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
 /* section feature */
 
 .feature > .container > ul {
@@ -197,7 +194,7 @@ header .e-mail {
 }
 
 .feature li {
-    width: 270px;
+    max-width: 270px;
 }
 
 .feature h5 {
@@ -238,13 +235,13 @@ header .e-mail {
 }
 
 .activity > div > ul > li {
-    width: 370px;
+    max-width: 370px;
 }
 
 /* section team */
 
 .team {
-    width: 1600px;
+    max-width: 1600px;
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;
@@ -261,7 +258,7 @@ header .e-mail {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    width: 270px;
+    max-width: 270px;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -305,7 +302,7 @@ header .e-mail {
 .filters ul {
     margin-left: auto;
     margin-right: auto;
-    width: 611px;
+    max-width: 611px;
     display: flex;
     justify-content: space-between;
 }
@@ -361,11 +358,11 @@ header .e-mail {
 .works li {
     background-color: #FFFFFF;
     border: 1px solid #EEEEEE;
-    width: 370px;
+    max-width: 370px;
 }
 
 .works span {
-    width: 322px;
+    max-width: 322px;
     display: inline-block;
     margin: 20px 24px 20px 24px;
 }
@@ -406,7 +403,7 @@ header .e-mail {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
-    width: 145px;
+    max-width: 145px;
 }
 
 footer .logo-studio {
@@ -435,7 +432,7 @@ address > ul > li > a {
 
 footer {
     background-color: #2F303A;
-    width: 1600px;
+    max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 60px;
