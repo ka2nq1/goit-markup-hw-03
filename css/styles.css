@@ -19,10 +19,6 @@ ul {
     margin-left: auto;
 }
 
-.main {
-    margin-top: 94px;
-}
-
 body {
     font-family: roboto;
 }
@@ -144,10 +140,9 @@ header .e-mail {
 .head {
     background-color: #2F303A;
     text-align: center;
-    width: 1600px;
+    max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 94px;
 }
 
 #title {
@@ -181,6 +176,8 @@ header .e-mail {
     color: #FFFFFF;
     background: #2196F3;
     border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
 }
 
 .head .container {
@@ -196,7 +193,7 @@ header .e-mail {
 }
 
 .feature {
-    margin-bottom: 94px;
+    padding-top: 94px;
 }
 
 .feature li {
@@ -231,7 +228,8 @@ header .e-mail {
 /* section activity*/
 
 .activity {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .activity > div > ul {
@@ -301,7 +299,7 @@ header .e-mail {
 /* section filters */
 
 .filters {
-    margin-bottom: 50px;
+    padding-top: 94px;
 }
 
 .filters ul {
@@ -350,7 +348,8 @@ header .e-mail {
 }
 
 .works {
-    margin-bottom: 94px;
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
 
 .works ul {
